@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estudis per Escola i Any</title>
+</head>
+<body>
+    <h1>{{ escola.nom }} - Estudis per l'any {{ any_oferta }}</h1>
+        
+    {% if estudis %}
+
+        <ul>
+        {% for estudi in estudis %}
+            <li>{{ estudi.nom }}: {{ estudi.codi }}</li>
+        {% endfor %}
+        </ul>
+
+    {% else %}
+        <p>No hi ha estudis aquest any</p>
+    {% endif %}
+
+</body>
+</html>

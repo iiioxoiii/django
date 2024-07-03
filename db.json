@@ -1,0 +1,76 @@
+[
+{
+    "model": "ultrasaga.escola",
+    "pk": 1,
+    "fields": {
+        "nom": "EA Llotja",
+        "nif": "Q5855860",
+        "nif_titular": "S0811001",
+        "codi_centre": "8013329"
+    }
+},
+{
+    "model": "ultrasaga.estudi",
+    "pk": 1,
+    "fields": {
+        "nom": "BATX LOE Arts",
+        "codi": "BATXLOE_1000"
+    }
+},
+{
+    "model": "ultrasaga.estudi",
+    "pk": 2,
+    "fields": {
+        "nom": "CFAM Assistència al producte gràfic imprès (LOE)",
+        "codi": "CFAM_CG20"
+    }
+},
+{
+    "model": "ultrasaga.estudi",
+    "pk": 3,
+    "fields": {
+        "nom": "CFAM Assistència al producte gràfic interactiu (LOE)",
+        "codi": "CFAM_CG10"
+    }
+},
+{
+    "model": "ultrasaga.estudi",
+    "pk": 4,
+    "fields": {
+        "nom": "CFAM Forja artística (LOE)",
+        "codi": "CFAM_EC30"
+    }
+},
+{
+    "model": "ultrasaga.estudi",
+    "pk": 5,
+    "fields": {
+        "nom": "CFAM Reproduccions artístiques en fusta (LOE)",
+        "codi": "CFAM_EC50"
+    }
+},
+{
+    "model": "ultrasaga.estudi",
+    "pk": 6,
+    "fields": {
+        "nom": "CFAS Escultura aplicada a l'espectacle (LOE)",
+        "codi": "CFAS_ECB0"
+    }
+},
+{
+    "model": "ultrasaga.estudi",
+    "pk": 7,
+    "fields": {
+        "nom": "CFAS Fosa artística (LOE)",
+        "codi": "CFAS_ECI0"
+    }
+},
+{
+    "model": "ultrasaga.modul",
+    "pk": 1,
+    "fields": {
+        "nom": "Dibuix artístic",
+        "codi": "ECI0_01",
+        "estudi": 7
+    }
+}

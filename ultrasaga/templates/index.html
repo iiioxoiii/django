@@ -1,0 +1,32 @@
+<h1>Llista d'Escoles</h1>
+
+<body>
+    {% if llistat_escoles %}
+
+    <ul>
+    
+    {% for escola in llistat_escoles %}
+
+        <li>
+            <h3>
+                <a href="escola/{{ escola.id }}/">{{ escola.nom }}</a>
+            </h3>
+
+                <a href="escola/{{ escola.id }}/estudis/{{ any_actual }}">Estudis actuals</a>
+            
+        </li>
+    {% endfor %}
+    
+    </ul>
+
+    {% else %}
+        <p>No hi ha escoles.</p>
+    {% endif %}
+
+    <footer>
+        Footer-2024
+    </footer>
+
+</body>
+
+
